@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router } from 'react-router-dom';
-import Hero from './Hero';
+import Hero from './HeroSection';
 import { GlobalStyle } from "./GlobaleStyles";
-import Service from "./Service";
-import About from './About';
+import Service from './ServiceSection';
+import About from './AboutSection';
 
 function App() {
   return (
