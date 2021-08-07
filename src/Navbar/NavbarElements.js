@@ -5,6 +5,7 @@ export const Wrapper = styled.div`
   display: flex;
   padding: 10px 40px;
   justify-content: space-between;
+  width: 100%;
 `;
 
 export const NavList = styled.ul`
@@ -32,7 +33,7 @@ export const NavItem = styled.li`
   }
 
   a:hover {
-    color: tomato;
+    color: #ab9620;
     transition: 0.12s;
   }
 
