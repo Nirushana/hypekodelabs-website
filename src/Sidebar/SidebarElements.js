@@ -38,9 +38,9 @@ export const SidebarMenu = styled.div`
   display: grid;
   grid-auto-rows: 95px;
   text-align: center;
-  margin-top: 90px;
   @media screen and (max-width: 480px) {
     grid-auto-rows: 70px;
+
   } 
 `;
 export const SidebarLink = styled(Link)`
@@ -56,7 +56,7 @@ export const SidebarLink = styled(Link)`
   cursor: pointer;
 
   &:hover {
-    color: #e31837;
+    color: #f9f9f9;
     transition: 0.2s ease-in-out;
   }
 `;
