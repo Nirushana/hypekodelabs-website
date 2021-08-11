@@ -3,7 +3,7 @@ import { FaBars } from "react-icons/fa";
 
 export const Wrapper = styled.div`
   display: flex;
-  padding: 10px 40px;
+  padding: 20px 40px;
   justify-content: space-between;
   width: 100%;
 `;
@@ -28,7 +28,6 @@ export const NavItem = styled.li`
     color: #f9f9f9;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: "Audiowide", sans-serif;
     font-size: 16px;
   }
 
@@ -62,7 +61,6 @@ export const NavItem = styled.li`
 export const Logo = styled.div`
   color: #f9f9f9;
   padding: 16px 0 5px;
-  font-family: "Audiowide", sans-serif;
   font-size: 20px;
 `;
 
@@ -78,7 +76,4 @@ export const Bars = styled(FaBars)`
     margin-top: 10px;
     color: #f9f9f9;
   }
-  
-
-
 `;
