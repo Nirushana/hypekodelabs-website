@@ -46,6 +46,7 @@ export const HeroP = styled.p`
   margin: 0 0 24px;
   line-height: 2;
   letter-spacing: 2px;
+  text-align: center;
 
   @media (max-width: 450px){
     text-align: center;

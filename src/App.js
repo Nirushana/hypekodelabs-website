@@ -4,6 +4,7 @@ import Hero from "./HeroSection";
 import { GlobalStyle } from "./GlobaleStyles";
 import Services from "./ServiceSection";
 import About from "./AboutSection";
+import Pricing from "./PricingSection";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <About />
       <Services />
+      <Pricing />
     </Router>
   );
 }
