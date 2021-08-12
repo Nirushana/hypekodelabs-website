@@ -1,10 +1,28 @@
 import React from "react";
-import { AboutSection } from "./AboutStyle";
+import {
+  AboutSection,
+  AboutTop,
+  AboutHeader,
+  AboutContainer,
+  AboutLeft,
+  AboutRight
+} from "./AboutStyle";
 
 function About() {
   return (
     <>
-      <AboutSection>Fams</AboutSection>
+      <AboutSection>
+        <AboutTop>
+          <AboutHeader>
+            <h2 class="float_header">About Us</h2>
+            <h3>About Us</h3>
+          </AboutHeader>
+        </AboutTop>
+        <AboutContainer>
+          <AboutLeft></AboutLeft>
+          <AboutRight></AboutRight>
+        </AboutContainer>
+      </AboutSection>
     </>
   );
 }
