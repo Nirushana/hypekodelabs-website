@@ -5,10 +5,17 @@ export const AboutSection = styled.section`
   height: 900px;
   background: #150f0f;
   color: #f9f9f9;
+
+  @media only screen and (max-width: 768px) {
+    height: 1300px;
+  }
 `;
 
 export const AboutTop = styled.div`
   position: relative;
+  @media only screen and (max-width: 768px) {
+    margin-top: -4rem;
+  }
 `;
 
 export const AboutHeader = styled.div`
@@ -64,6 +71,10 @@ export const AboutContainer = styled.div`
   height: 100%;
   margin: 0 auto;
   max-width: 1100px;
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column-reverse;
+  }
 `;
 
 export const AboutLeft = styled.div`
@@ -75,6 +86,19 @@ export const AboutLeft = styled.div`
     font-size: 1.8rem;
     line-height: 38px;
     color: #f9f9f9;
+  }
+
+  @media only screen and (max-width: 768px) {
+    text-align: center;
+    padding: 0;
+    flex: 1;
+    height: fit-content;
+
+    p {
+      margin: 0 auto;
+      font-size: 1rem;
+      margin-top: -8rem;
+    }
   }
 `;
 
@@ -89,6 +113,18 @@ export const AboutRight = styled.div`
     object-fit: cover;
     object-position: 50% 30%;
     border-radius: 12px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    text-align: center;
+    flex: 1;
+    margin-bottom: 1rem;
+    margin-top: 10rem;
+
+    img {
+      width: 90%;
+      height: 400px;
+    }
   }
 `;
 
@@ -107,20 +143,29 @@ export const AboutButton = styled.div`
     padding: 0.6em 1.6em;
     border-radius: 50px;
     text-decoration: none;
-    transition: ease-in-out .4s;
+    transition: ease-in-out 0.4s;
   }
 
-  .primary-btn:hover{
+  .primary-btn:hover {
     background-color: #c7ad18;
+    transform: scale(1.1);
   }
 
   svg {
     width: 55px;
     color: #c7ad18;
-    transition: .4s;
+    transition: 0.4s;
   }
 
-  svg:hover{
+  svg:hover {
     transform: scale(1.2);
+  }
+
+  @media only screen and (max-width: 768px) {
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 `;

@@ -37,6 +37,7 @@ export const HeroH = styled.h1`
 
   @media (max-width: 450px){
     font-size: 2.5em;
+    text-align: center;
   }
 `;
 export const HeroP = styled.p`
@@ -47,6 +48,7 @@ export const HeroP = styled.p`
   letter-spacing: 2px;
 
   @media (max-width: 450px){
+    text-align: center;
     font-size: 12px;
   }
 `;
@@ -59,12 +61,13 @@ export const HeroBtn = styled.a`
   font-size: 18px;
   padding: 16.5px 40px;
   border: 2px solid #c7ad18;
-  border-radius: 4px;
+  border-radius: 40px;
   cursor: pointer;
   transition: ease-in-out .4s;
 
   &:hover {
     background-color: #c7ad18;
+    transform: scale(1.1);
   }
 
   @media (max-width: 450px){
