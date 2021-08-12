@@ -7,7 +7,7 @@ export const HeroSection = styled.section`
 export const HeroContainer = styled.div`
 background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)),
     url("/images/heroImg.jpg");
-  height: 100vh;
+  height: 900px;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -61,6 +61,7 @@ export const HeroBtn = styled.a`
   border: 2px solid #c7ad18;
   border-radius: 4px;
   cursor: pointer;
+  transition: ease-in-out .4s;
 
   &:hover {
     background-color: #c7ad18;

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ServiceContainer = styled.div`
   width: 100%;
-  min-height: 100vh;
+  min-height: 900px;
   background: #150f0f;
   color: #fff;
   display: flex;
@@ -64,6 +64,7 @@ export const ServiceBottom = styled.div`
   justify-content: center;
   align-items: center;
 `;
+
 export const ServiceContent = styled.div`
   text-align: center;
   max-width: 1450px;
