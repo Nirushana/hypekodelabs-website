@@ -11,6 +11,7 @@ export const ServiceContainer = styled.div`
 
 export const ServiceTop = styled.div`
   position: relative;
+
 `;
 
 export const ServiceHeader = styled.div`

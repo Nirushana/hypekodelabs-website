@@ -7,7 +7,7 @@ export const AboutSection = styled.section`
   color: #f9f9f9;
 
   @media only screen and (max-width: 768px) {
-    height: 1300px;
+    height: 1100px;
   }
 `;
 
@@ -42,7 +42,7 @@ export const AboutHeader = styled.div`
 
   @media (max-width: 450px) {
     .float_header {
-      font-size: 150px;
+      font-size: 130px;
       font-weight: bolder;
       position: absolute;
       opacity: 0.1;
@@ -108,8 +108,8 @@ export const AboutRight = styled.div`
 
   img {
     width: 100%;
-    max-width: 550px;
-    height: 600px;
+    max-width: 560px;
+    height: 500px;
     object-fit: cover;
     object-position: 50% 30%;
     border-radius: 12px;
@@ -123,7 +123,7 @@ export const AboutRight = styled.div`
 
     img {
       width: 90%;
-      height: 400px;
+      height: 320px;
     }
   }
 `;

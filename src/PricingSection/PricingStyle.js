@@ -54,3 +54,10 @@ export const PricingHeader = styled.div`
     }
   }
 `;
+
+export const PricingTable = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: min(1600px, 100%);
+`;
