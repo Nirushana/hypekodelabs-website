@@ -61,3 +61,78 @@ export const PricingTable = styled.div`
   justify-content: space-around;
   width: min(1600px, 100%);
 `;
+
+export const PricingCard = styled.div`
+    flex: 1;
+    max-width: 320px;
+    background: #fff;
+    margin: 20px 10px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    color: #2d2d2d;
+    transition: .3s linear;
+
+    .pricing-card-header{
+      background: #0fbcf9;
+      display: inline-block; 
+      color: #fff;
+      padding: 12px 30px;
+      border-radius: 0 0 20px 20px;
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: 600;
+      transition: .4s linear;
+    }
+
+    &:hover .pricing-card-header{
+      box-shadow: 0 0 0 26em #0fbcf9;
+    } 
+
+    .price{
+      font-size: 70px;
+      color: #0fbcf9;
+      margin: 40px 0;
+      transition: .2s linear;
+    }
+
+    .price sup, .price span{
+      font-size: 22px;
+      font-weight: 700;
+    }
+
+    &:hover , &:hover .price{
+      color: #fff;
+    }
+
+    li{
+    font-size: 16px;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.order-btn{
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    border: 2px solid #0fbcf9;
+    color: #0fbcf9;
+    padding: 18px 40px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: .3s linear;
+    text-decoration: none;
+}
+
+.order-btn:hover{
+    background-color: #0fbcf9;
+    color: #fff;
+}
+
+@media screen and (max-width: 1100px) {
+        flex: 50%;
+}
+
+`
+
+
