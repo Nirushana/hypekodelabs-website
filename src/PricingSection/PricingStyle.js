@@ -4,10 +4,16 @@ export const PricingSection = styled.section`
   width: 100%;
   height: 900px;
   background-color: #150f0f;
+
+  @media only screen and (max-width: 768px) {
+    height: 100%;
+  }
 `;
 
 export const PricingTop = styled.div`
   position: relative;
+
+  
 `;
 
 export const PricingHeader = styled.div`
@@ -59,7 +65,8 @@ export const PricingTable = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: min(1600px, 100%);
+  align-items: center;
+  width: min(1500px, 100%);
 `;
 
 export const PricingCard = styled.div`
@@ -74,7 +81,7 @@ export const PricingCard = styled.div`
     transition: .3s linear;
 
     .pricing-card-header{
-      background: #0fbcf9;
+      background: #c7ad18;
       display: inline-block; 
       color: #fff;
       padding: 12px 30px;
@@ -86,12 +93,12 @@ export const PricingCard = styled.div`
     }
 
     &:hover .pricing-card-header{
-      box-shadow: 0 0 0 26em #0fbcf9;
+      box-shadow: 0 0 0 26em #c7ad18;
     } 
 
     .price{
-      font-size: 70px;
-      color: #0fbcf9;
+      font-size: 60px;
+      color: #c7ad18;
       margin: 40px 0;
       transition: .2s linear;
     }
@@ -115,8 +122,8 @@ export const PricingCard = styled.div`
     display: inline-block;
     margin-bottom: 40px;
     margin-top: 80px;
-    border: 2px solid #0fbcf9;
-    color: #0fbcf9;
+    border: 2px solid #c7ad18;
+    color: #c7ad18;
     padding: 18px 40px;
     border-radius: 8px;
     font-weight: 500;
@@ -125,7 +132,7 @@ export const PricingCard = styled.div`
 }
 
 .order-btn:hover{
-    background-color: #0fbcf9;
+    background-color: #c7ad18;
     color: #fff;
 }
 

@@ -15,7 +15,7 @@ function Pricing() {
         <PricingTable>
         <PricingCard>
             <h3 class="pricing-card-header">Personal</h3>
-            <div class="price"><sup>LKR</sup>15k<span>/MO</span></div>
+            <div class="price"><sup>LKR</sup>15,000<span>/MO</span></div>
             <ul>
                 <li><strong>3</strong> Website</li>
                 <li><strong>20 GB</strong> SSD</li>
@@ -28,7 +28,7 @@ function Pricing() {
 
         <PricingCard>
             <h3 class="pricing-card-header">Professional</h3>
-            <div class="price"><sup>LKR</sup>35k<span>/MO</span></div>
+            <div class="price"><sup>LKR</sup>35,000<span>/MO</span></div>
             <ul>
                 <li><strong>10</strong> Website</li>
                 <li><strong>50 GB</strong> SSD</li>
@@ -41,20 +41,20 @@ function Pricing() {
 
         <PricingCard>
             <h3 class="pricing-card-header">Premium</h3>
-            <div class="price"><sup>LKR</sup>55k<span>/MO</span></div>
+            <div class="price"><sup>LKR</sup>55,000<span>/MO</span></div>
             <ul>
-                <li><strong>30</strong>Website</li>
-                <li><strong>150 GB</strong>SSD</li>
-                <li><strong>1</strong>Domain Name</li>
-                <li><strong>40</strong>Email</li>
-                <li><strong>2x</strong>CPU & RAM</li>
+                <li><strong>30</strong> Website</li>
+                <li><strong>150 GB</strong> SSD</li>
+                <li><strong>1</strong> Domain Name</li>
+                <li><strong>40</strong> Email</li>
+                <li><strong>2x</strong> CPU & RAM</li>
             </ul>
             <a href="/" class="order-btn">Oder Now</a>
         </PricingCard>
 
         <PricingCard>
             <h3 class="pricing-card-header">Ultimate</h3>
-            <div class="price"><sup>LKR</sup>85k<span>/MO</span></div>
+            <div class="price"><sup>LKR</sup>85,000<span>/MO</span></div>
             <ul>
                 <li><strong>100</strong> Website</li>
                 <li><strong>200 GB</strong> SSD</li>
