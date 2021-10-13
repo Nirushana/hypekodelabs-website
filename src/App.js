@@ -5,6 +5,7 @@ import { GlobalStyle } from "./GlobaleStyles";
 import Services from "./ServiceSection";
 import About from "./AboutSection";
 import Pricing from "./PricingSection";
+import FooterSection from "./FooterSection.js";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Services />
       <Pricing />
+      <FooterSection />
     </Router>
   );
 }
