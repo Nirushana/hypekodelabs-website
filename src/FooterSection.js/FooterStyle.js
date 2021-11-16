@@ -55,6 +55,13 @@ export const FooterContent = styled.div`
   a:hover {
     color: aqua;
   }
+
+  @media screen and (max-width: 361px){
+    p{
+
+      font-size: 16px;
+    }
+  }
 `;
 
 export const FooterBottom = styled.div`

@@ -66,6 +66,7 @@ export const PricingTable = styled.div`
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  justify-content: center;
   width: min(1500px, 100%);
 `;
 

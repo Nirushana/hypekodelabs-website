@@ -5,7 +5,7 @@ export const GlobalStyle = createGlobalStyle`
      box-sizing: border-box;
      margin: 0;
      padding: 0;
-     font-family: "Josefin Sans", sans-serif;
+     font-family: "Arial", sans-serif;
  }
 
  body{

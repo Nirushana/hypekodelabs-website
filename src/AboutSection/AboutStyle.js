@@ -14,15 +14,15 @@ export const AboutSection = styled.section`
 export const AboutTop = styled.div`
   position: relative;
   @media only screen and (max-width: 768px) {
-    margin-top: -4rem;
+    margin-top: -12rem;
   }
 `;
 
 export const AboutHeader = styled.div`
   padding: 90px;
   .float_header {
-    font-size: 150px;
-    font-weight: bolder;
+    font-size: 120px;
+    font-weight: bold;
     position: absolute;
     opacity: 0.1;
     top: 20px;
@@ -79,13 +79,19 @@ export const AboutContainer = styled.div`
 
 export const AboutLeft = styled.div`
   flex: 6;
+  
 
   p {
     margin-top: 2.5rem;
-    max-width: 480px;
-    font-size: 1.8rem;
-    line-height: 38px;
+    max-width: 485px;
+    font-size: 1.1rem;
+    line-height: 32px;
+    letter-spacing: 3px;
     color: #f9f9f9;
+    
+    h2{
+      margin-top: 1.5rem
+    }
   }
 
   @media only screen and (max-width: 768px) {
@@ -96,8 +102,8 @@ export const AboutLeft = styled.div`
 
     p {
       margin: 0 auto;
-      font-size: 1rem;
-      margin-top: -8rem;
+      font-size: 12px;
+      margin-top: -12rem;
     }
   }
 `;
@@ -118,8 +124,8 @@ export const AboutRight = styled.div`
   @media only screen and (max-width: 768px) {
     text-align: center;
     flex: 1;
-    margin-bottom: 1rem;
-    margin-top: 10rem;
+   
+    margin-top: 3rem;
 
     img {
       width: 90%;
@@ -167,5 +173,6 @@ export const AboutButton = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 2rem;
   }
 `;

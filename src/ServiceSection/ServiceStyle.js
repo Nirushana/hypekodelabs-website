@@ -137,6 +137,7 @@ export const Item = styled.li`
     transform: scale(1.1);
     border-bottom: 2px solid #c7ad18;
     color: #c7ad18;
+    cursor: pointer;
   }
 
   @media screen and (max-width: 1155px) {
